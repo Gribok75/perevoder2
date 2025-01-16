@@ -1,0 +1,10 @@
+{
+  "description": "",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^9.2.0",
+    "node-fetch": "^2.7.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "telegraf": "^4.8.5",
+    "tesseract.js": "^6.0.0"
+  }
+}
