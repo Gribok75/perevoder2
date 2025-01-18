@@ -9,7 +9,7 @@
     "tesseract.js": "^6.0.0"
   },  
   "scripts":{
-    "start": "node index.js"
+    "start": "echo 'Starting the applicatio...' && node index.js"
   }
 }
 
