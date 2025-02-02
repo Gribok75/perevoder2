@@ -1,5 +1,7 @@
 {
   "description": "",
+  "name":"perevoder2",
+  "version":"1.3v",
 
   "dependencies": {
     "@vitalets/google-translate-api": "^9.2.0",
@@ -10,6 +12,6 @@
   },
     "scripts":{
           "start": "echo 'Starting the applicatio...' && node index.js"
-  },
+  }
 }
 
