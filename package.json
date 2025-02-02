@@ -1,17 +1,16 @@
 {
   "description": "",
-  "name":"perevoder2",
-  "version":"1.3v",
-
+  "name": "perevoder2",
+  "version": "1.3v",
   "dependencies": {
     "@vitalets/google-translate-api": "^9.2.0",
+    "express": "^4.21.2",
     "node-fetch": "^2.7.0",
     "node-telegram-bot-api": "^0.66.0",
     "telegraf": "^4.8.5",
     "tesseract.js": "^6.0.0"
   },
-    "scripts":{
-          "start": "echo 'Starting the applicatio...' && node index.js"
+  "scripts": {
+    "start": "echo 'Starting the applicatio...' && node index.js"
   }
 }
-
