@@ -5,6 +5,17 @@ const fetch = require('node-fetch'); // Убедитесь, что библио�
 const { translate }  = require('@vitalets/google-translate-api');
 const ADMIN_ID = '5357772119';// Ваш Telegram ID (замените на свой ID)
 const path = require('path');
+const express = require('express');
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+app.get('/', (req, res) => {
+  res.send('Bot is running!');
+});
+
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
 
 // Укажите токен вашего бота
 const BOT_TOKEN = '7876197423:AAF2qZxEIFw3X9DHPlN8THrP1XkeWqkrTRY';
